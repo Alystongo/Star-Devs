@@ -1,4 +1,4 @@
-/* Global ================ */
+
 :root {
   --yellow: #DCA500;
   --yellow-light: #FFBF00;
@@ -52,7 +52,7 @@ main .cards-main .card-container {
 }
 
 main .cards-main .card-container:hover {
-  margin-top: -2%;
+  margin-top: -1%;
   border-radius: 1rem;
   box-shadow: 0px 0px 5px 3px #999;
 }
