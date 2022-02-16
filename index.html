@@ -1,0 +1,57 @@
+<DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Star-Devs</title>
+	
+	
+	<link rel="stylesheet" href="style.css">
+	<script src="index.js" defer></script>
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https: //fonts.googleapis.com/css2? family= Gideon+Roman & family= Playfair+Display:ital,wght@0,500;1,500 & family= Corrigido & display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<header> <h1>Star-Devs</h1> </header>
+	
+	<main>
+		<section class="cards-main">
+			<div class="card-container">
+			
+				<div class="card-main">
+					<span>Personagens</span>
+					<h2 id="persons">Carregando...</h2>
+				</div>
+				<img src="darth.svg" alt="Imagem Personagem">
+			</div><br>
+			
+			<div class="card-container">
+			
+				<div class="card-main">
+					<span>Naves Estelares</span>
+					<h2 id="starships">Carregando...</h2>
+				</div>
+				<img src="starship.svg" alt="Imagem Naves">	
+			</div><br>
+			
+			<div class="card-container">
+			
+				<div class="card-main">
+					<span>Planetas</span>
+					<h2 id="planets">Carregando...</h2>
+				</div>
+				<img src="planet.svg" alt="Imagem Planetas">
+			</div><br>
+		</section>
+		
+		<section class="phrases-container">
+			<button id="btn-phrases" onclick="loadPhrase()">Ler uma frase!</button>
+			<p id="phrase"></p>
+		</section>
+	</main>
+</body>
+
+</html>
